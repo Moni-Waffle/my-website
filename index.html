@@ -6,14 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        ul li{
+            padding: 8px 12px;
+            border-radius: 6px;
+        }
+        ul li:hover{
+            color: rgb(191, 101, 233);
+            background-color: rgb(228, 210, 247);
+           
+        }
+    </style>
 </head>
 <body>
-    <nav class="bg-green-300 flex items-center justify-around">
-        <div>
-            <h2>M</h2>
-            <h1>MONISHA</h1>
+    <nav class="bg-green-300 flex items-center justify-around py-8 shadow-md">
+        <div class="flex gap-3 items-center">
+            <h2 class="text-xl font-semibold text-white bg-purple-500 px-3 py-2 rounded-full">M</h2>
+            <h1 class="text-3xl font-semibold">MONISHA</h1>
         </div>
-        <ul>
+        <ul class="flex gap-12 font-medium ">
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
             <li><a href="">PORTFOLIO</a></li>
